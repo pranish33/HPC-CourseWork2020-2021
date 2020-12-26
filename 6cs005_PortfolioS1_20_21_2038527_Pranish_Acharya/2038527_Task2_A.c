@@ -21,7 +21,8 @@ int main()
   {
      for (j = 0; j < P; j++)
      {
-	scanf("%10d",&A[i][j]);
+	//scanf("%10d",&A[i][j]);
+	A[i][j] = rand();
      }
   }
   
@@ -32,7 +33,9 @@ int main()
   {
      for (j = 0; j < M; j++)
      {
-	scanf("%10d",&B[i][j]);
+	//scanf("%10d",&B[i][j]);
+         //for random values rand function is implemented
+	B[i][j] = rand();
      }
   }
 	
